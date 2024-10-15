@@ -1,0 +1,20 @@
+//NAME : INDRAKUMAR PRABHUBHAI SUTHAR
+//ROLL-NUMBER : 33
+//SUBJECT : FOP
+
+
+#include <stdio.h>
+int main(){
+	int marks;
+	printf("Enter the marks of the student : ");
+	scanf("%d", &marks);
+	if(marks <= 39){ 
+		printf("Status : Fail");
+	}else if(39 < marks <= 59){
+		printf("Status : Second Class");
+	}else if(59 < marks <= 79){
+		printf("Status : First Class");
+	}else{
+		printf("Status : Distinction");
+	}
+}
